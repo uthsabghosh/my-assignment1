@@ -333,6 +333,9 @@ padding: 40px;
 .social-link h4{
      color: white;
 }
+.social-link a{
+    color: white;
+}
 .footer-text{
      text-align: center;
      color: white;
