@@ -1,0 +1,347 @@
+.font {
+     font-family: "Open Sans", sans-serif;
+
+}
+
+nav {
+     /* max-width: 1600px; */
+     max-height: 92px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #FFFFFF;
+     margin-left: 120px;
+     margin-right: 120px;
+}
+
+
+
+nav .menubar {
+     display: flex;
+     gap: 32px;
+     list-style: none;
+}
+
+nav .menubar a {
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 400;
+     text-align: center;
+     margin-top: 34px;
+     margin-bottom: 34px;
+
+}
+
+.nav-btn {
+     max-width: 164px;
+     max-height: 44px;
+     /* margin-right: 120px; */
+     align-items: center;
+     padding: 12px 16px;
+     border: none;
+     border-radius: 4px;
+     background-color: #469165;
+     font-size: 16px;
+     font-weight: 600px;
+     color: #FFFFFF;
+     cursor: pointer;
+
+
+
+
+}
+
+.section1 {
+     /* width: 1600px; */
+     height: 674px;
+     background-image: url(assets/hero-bg.png);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+}
+
+.herosection {
+
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     max-width: 1360px;
+     max-height: 379px;
+
+
+}
+
+.btn {
+     width: 229px;
+     height: 35px;
+     border: none;
+     border-radius: 1000px;
+     background-color: #FFFFFF;
+     color: #469165;
+     font-size: 16px;
+     font-weight: 400;
+     margin-bottom: 16px;
+     cursor: pointer;
+     
+
+}
+
+#h1 {
+     color: #FFFFFF;
+     font-size: 72px;
+     font-weight: 900;
+
+
+}
+
+#h2 {
+     color: #30B868;
+     font-size: 72px;
+     font-weight: 900;
+}
+
+.herosection p {
+     color: #FFFFFF;
+     font-size: 18px;
+     font-weight: 400;
+
+
+}
+
+.btn1 {
+     width: 251px;
+     height: 52px;
+     align-items: center;
+
+     justify-content: center;
+     padding: 12px 16px;
+     border: none;
+     border-radius: 4px;
+     background-color: #469165;
+     font-size: 16px;
+     font-weight: 600px;
+     color: #FFFFFF;
+     cursor: pointer;
+     margin-right: 16px;
+
+}
+
+.btn2 {
+     width: 198px;
+     height: 52px;
+     padding: 12px 16px 12px 16px;
+     border: none;
+     border-radius: 4px;
+     background-color: transparent;
+     font-size: 16px;
+     font-weight: 600px;
+     color: #FFFFFF;
+     cursor: pointer;
+     border: 1px solid white;
+}
+
+.section2 .structure h1 {
+     font-size: 48px;
+     font-weight: 900;
+     text-align: center;
+     margin-bottom: 16px;
+
+
+}
+
+.section2 .structure p {
+     font-size: 18px;
+     font-weight: 400;
+     text-align: center;
+}
+
+
+/* notes section */
+
+#notes{
+  background-color: red;
+  padding-top: 120px;
+}
+
+#notes .notes-container{
+  width: 71%;
+  max-width: 1600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-hedding {
+  max-width: 1360px;
+  text-align: center;
+  gap: 16;
+  margin-top:50px;
+}
+.section-hedding h2 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.section-hedding p{
+  font-size: 16px;
+  margin-bottom: 44px;
+  line-height: 20px;
+  color: #627382;
+}
+
+.info-card  {
+max-width: 322px;
+box-shadow: 0 6px 50px 0 #00000026;
+border-radius: 8px;
+padding: 40px;
+
+}
+
+.info-card img{
+  background-color: red;
+  border-radius: 50%;
+  padding: 10px;
+  
+}
+.about-info{
+ 
+  gap: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+.info-card h2{
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+.solution{
+     display: flex;
+     justify-content: center;
+     gap: 60px;
+     margin-top: 120px;
+     margin-bottom: 120px;
+     margin-left: 120px;
+     margin-right: 120px;
+     align-items: center;
+}
+.tips{
+     display: flex;
+     gap: 6px;
+     align-items: center;
+}
+.tips img{
+     height:20px ;
+     width: 20px;
+     
+}
+.p-solve{
+     font-size: 16;
+     color: #469165;
+     /* margin-top: 220px; */
+     margin-bottom: 16px;
+     
+}
+.solution-text h1{
+     font-size: 48px;
+     font-weight: 900;
+     color: #001931;
+     margin-bottom: 16px;
+
+
+}
+ .Personal-khowladge{
+     font-size: 16px;
+     font-weight:  400 ;
+     color: #627382;
+     margin-bottom: 40px;
+ }
+.solution .tips .common-p{
+     font-size: 16px;
+     color: #001931;
+     margin-bottom: 16px;
+}
+.clearly-container{
+     background-color: #F7F6F2;
+     padding: 40px;
+     width:1160px ;
+     margin: 0 auto;
+     height: 384px;
+     text-align: center;
+     align-items: center;
+     justify-items: center;
+     /* margin: 120px  120px; */
+}
+.clearly .clearly-container h1{
+     font-size: 40px;
+     font-weight: 900;
+     color: #001931;
+     padding-top: 80px;
+}
+.clearly .clearly-container .Join-thousands{
+     font-size:16px;
+     font-weight: 400;
+     color: #627382;
+
+}
+.clearly .clearly-container button{
+     display: flex;
+     gap: 10px;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     background-color: #469165;
+     border: 1px solid black;
+     border-radius: 4px;
+     cursor: pointer;
+     
+}
+.clearly .clearly-container button p{ 
+     font-size: 16px;
+     font-weight: 600;
+     color: #FFFFFF;
+     
+}
+ .clearly .clearly-container .Free-during{
+     font-size: 16px;
+     font-weight: 400;
+     color: #627382;
+     
+ }
+ .footer-section{
+     /* width: 1520px; */
+     /* height: 348px; */
+     /* background-color: black; */
+     display: flex;
+     justify-content: space-between;
+     margin-left: 120px;
+     margin-right: 120px;
+     margin-top: 100px;
+     /* flex-direction: row; */
+     /* align-items: flex-start; */
+
+ }
+.footer-section .social-link img {
+     height: 20px;
+     width: 20px;
+}
+.footer-section .footer-img{
+     height:60px ;
+     width:140px ;
+}
+.social-link h4{
+     color: white;
+}
+.footer-text{
+     text-align: center;
+     color: white;
+     font-size: 16px;
+     border-top: 1px solid gray;
+     padding: 30px;
+}
+/* .footer-container{
+ background: #001931;
+padding: 20px;
+margin-top: 120px;
+} */
